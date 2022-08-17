@@ -1,0 +1,14 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": "5432",
+  "username": "adminz",
+  "password": "123123",
+  "database": "nest_basic",
+  "synchronize": true,
+  "logging": true,
+  "entities": [
+    "./src/**/*.entity.ts",
+    "./dist/**/*.entity.js"
+  ]
+}
